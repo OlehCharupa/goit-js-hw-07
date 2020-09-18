@@ -1,0 +1,17 @@
+ul {
+  list-style: none;
+}
+#gallery {
+  display: flex;
+}
+.item-gallery:not(:last-child) {
+  margin-right: 20px;
+}
+.box {
+  background-color: black;
+  transition: 1500ms;
+}
+.red {
+  background-color: red;
+  transition: 1500ms;
+}
