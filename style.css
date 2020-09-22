@@ -7,11 +7,31 @@ ul {
 .item-gallery:not(:last-child) {
   margin-right: 20px;
 }
-.box {
-  background-color: black;
-  transition: 1500ms;
+
+/*  ==========  task-04 ================*/
+
+#counter {
+  font-size: 20px;
+  margin: 50px;
 }
-.red {
-  background-color: red;
-  transition: 1500ms;
+
+.btn {
+  font-size: 20px;
+  padding: 10px;
+  background-color: aqua;
+  border: 1px dashed black;
+  border-radius: 50%;
+  margin: 20px;
+}
+/*  ==========  task-06 ================*/
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
 }
